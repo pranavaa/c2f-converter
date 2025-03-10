@@ -1,0 +1,41 @@
+body {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.converter {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+#temperature {
+  padding: 8px;
+  margin: 5px;
+  width: 150px;
+}
+
+.btn-convert {
+  padding: 8px 15px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#conversionType {
+    padding: 8px;
+    margin: 5px;
+}
+
+#result {
+  margin-top: 10px;
+  font-weight: bold;
+}
